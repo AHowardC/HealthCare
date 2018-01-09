@@ -6,7 +6,6 @@ import {Form, FormGroup, ControlLabel, FormControl, Button, Col} from 'react-boo
 
 
 // Custom Components
-import NavBar from './components/NavBar';
 import Home from './components/Home';
 import Register from './components/Register';
 import SlickSlider from './components/SlickSlider';
@@ -16,7 +15,7 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-          
+
           <div className='app-body'>
             {/* <Route exact path='/' component={SlickSlider} /> */}
             <div className='container'>
