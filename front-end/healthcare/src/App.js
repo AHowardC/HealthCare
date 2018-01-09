@@ -16,7 +16,7 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-          {/* <NavBar /> */}
+          
           <div className='app-body'>
             {/* <Route exact path='/' component={SlickSlider} /> */}
             <div className='container'>
