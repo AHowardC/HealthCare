@@ -1,6 +1,7 @@
 // 3rd party modules
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
+import {Form, FormGroup, ControlLabel, FormControl, Button, Col} from 'react-bootstrap';
 
 
 
@@ -15,9 +16,9 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-          <NavBar />
+          {/* <NavBar /> */}
           <div className='app-body'>
-            <Route exact path='/' component={SlickSlider} />
+            {/* <Route exact path='/' component={SlickSlider} /> */}
             <div className='container'>
               <Route exact path='/' component={Home} />
               <Route exact path='/' component={Register} />
